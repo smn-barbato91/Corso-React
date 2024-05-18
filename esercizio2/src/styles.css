@@ -1,0 +1,5 @@
+.custom-bg {
+    background-color: rgba(255, 0, 0, 0.2); /* Colore rosso con opacità del 20% */
+    padding: 20px; /* Padding per distanziare il testo dai bordi */
+    border-radius: 20px; /* Bordo arrotondato opzionale */
+  }
