@@ -1,0 +1,57 @@
+.pentagon {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pentagon-img {
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+  clip-path: polygon(50% 0%, 93% 38%, 76% 94%, 24% 94%, 7% 38%);
+  transition: transform 0.3s ease;
+}
+
+.pentagon-img:hover {
+  transform: scale(1.1);
+}
+
+.pentagon a:nth-child(1) {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.pentagon a:nth-child(2) {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-100%, -50%);
+}
+
+.pentagon a:nth-child(3) {
+  position: absolute;
+  top: 100%;
+  left: 75%;
+  transform: translate(-75%, -100%);
+}
+
+.pentagon a:nth-child(4) {
+  position: absolute;
+  top: 100%;
+  left: 25%;
+  transform: translate(-25%, -100%);
+}
+
+.pentagon a:nth-child(5) {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+}
