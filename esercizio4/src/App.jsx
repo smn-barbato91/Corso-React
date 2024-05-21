@@ -1,32 +1,34 @@
 /* eslint-disable react/jsx-no-undef */
 import './App.css'
+import Logo1 from './images/logo1.jpg';
 
 function App() {
+  
   const logos = [
     {
-      src: '/images/logo1.png',
+      src: Logo1,
       alt: 'Azienda 1',
-      link: 'https://www.azienda1.com',
+      link: '#',
     },
     {
-      src: '/images/logo2.png',
+      src: '/images/logo2.jpg',
       alt: 'Azienda 2',
-      link: 'https://www.azienda2.com',
+      link: '#',
     },
     {
-      src: '/images/logo3.png',
+      src: '/images/logo3.jpg',
       alt: 'Azienda 3',
-      link: 'https://www.azienda3.com',
+      link: '#',
     },
     {
-      src: '/images/logo4.png',
+      src: '/images/logo4.jpg',
       alt: 'Azienda 4',
-      link: 'https://www.azienda4.com',
+      link: '#',
     },
     {
-      src: '/images/logo5.png',
+      src: '/images/logo5.jpg',
       alt: 'Azienda 5',
-      link: 'https://www.azienda5.com',
+      link: '#',
     },
   ];
 
