@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-no-undef */
 import './App.css'
+import Esercizio4 from './components/Esercizio4';
 import Logo1 from './images/logo1.jpg';
 
 function App() {
@@ -33,19 +34,7 @@ function App() {
   ];
 
   return (
-    <Container className="text-center">
-      <Row className="justify-content-center align-items-center min-vh-100">
-        <Col md={8}>
-          <div className="pentagon">
-            {logos.map((logo, index) => (
-              <a key={index} href={logo.link} target="_blank" rel="noopener noreferrer">
-                <img src={logo.src} alt={logo.alt} className="pentagon-img" />
-              </a>
-            ))}
-          </div>
-        </Col>
-      </Row>
-    </Container>
+    < Esercizio4/>
   );
 }
 
