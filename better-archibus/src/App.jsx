@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <main>
+      <main className="vh-100">
         <SideBar/>
       </main>     
     </>
