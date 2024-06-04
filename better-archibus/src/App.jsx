@@ -6,17 +6,20 @@ import Grid from './components/Grid';
 
 import '../index.css'
 import SideBarSharedLayout from './layouts/SideBarSharedLayout';
+import GridLayout from './layouts/GridLayout';
+import FormEm from './components/FormEm';
 
 function App() {
 
   return (
     <>
-      <main className="vh-100">
+      <main>
         <Routes>
           <Route path="/" element={<SideBarSharedLayout/>}>
             <Route index element={<Home/>}/>
-            <Route path="/employees" element={<Grid/>}/>
-
+            <Route path="/employees" element={<GridLayout/>}>
+              <Route path=":employeesId" element={<FormEm/>}/>
+            </Route>
           </Route>
         </Routes>
         

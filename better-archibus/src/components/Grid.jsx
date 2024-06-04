@@ -1,4 +1,5 @@
 /* eslint-disable no-empty */
+import {Link} from 'react-router-dom'
 import { useState } from "react";
 export default function Grid() {
   const [listaEm, setListaEm] = useState([]);
@@ -23,7 +24,7 @@ export default function Grid() {
           <tbody>
             {listaEm.map((element, index) => (
               <tr key={index}>
-                <td>{element.em_id}</td>
+                <td><Link to={"/employees/"+index}>{element.em_id}</Link></td>
                 <td>{element.name_first}</td>
                 <td>{element.name_last}</td>
                 <td>{element.email}</td>
