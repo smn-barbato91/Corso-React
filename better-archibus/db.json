@@ -1,0 +1,26 @@
+{
+    "employees": [
+        {
+            "em_id":1,
+            "name_first": "Luca",
+            "name_last": "Cuccu",
+            "email": "luca.cuccu@ext.myefm.it"
+            
+        },
+        {
+            "em_id":2,
+            "name_first": "Luca",
+            "name_last": "Binotto",
+            "email": "luca.binotto@ext.myefm.it"
+            
+        },
+        {
+            "em_id":3,
+            "name_first": "Simone",
+            "name_last": "Barbato",
+            "email": "simone.barbato@ext.myefm.it"
+            
+        }
+        
+        ]
+}
