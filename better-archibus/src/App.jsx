@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <main className="vh-10">
+      <main className="vh-100">
         <Routes>
           <Route path="/" element={<SideBarSharedLayout/>}>
             <Route index element={<Home/>}/>
